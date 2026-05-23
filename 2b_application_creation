@@ -1,0 +1,4 @@
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I am glad this happened")
+'{"emotionPredictions":[{"emotion":{"anger":0.0,"disgust":0.0,"fear":0.0,"joy":0.95,"sadness":0.05},"target":"","normed_emotion":{"anger":0.0,"disgust":0.0,"fear":0.0,"joy":0.95,"sadness":0.05}}],"producerId":{"name":"Ensemble Emotion Workflow","version":"0.0.1"}}'
+>>>
